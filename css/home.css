@@ -72,7 +72,13 @@ body {
         max-width:80%
     }
     
-    
+    .col-md-2{
+        display: none;
+    }
+
+    .col-10{
+        transform: translateX(10%);
+    }
 
     .header a {
         float: none;
@@ -141,7 +147,7 @@ footer {
 
 .box {
     padding: 20px;
-    background-color: white;
+    background-color: white;;
 }
 
 .boxcontent {
