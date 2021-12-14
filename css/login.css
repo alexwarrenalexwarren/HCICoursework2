@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to bottom, #0072CE 33%, white 0%);
+}
+
+html {
+    height: 100%
+}
+
+line {
+    height: 1px;
+    background: black;
+}
+
+.container {
+    width: 50%;
+    height: 30%;
+
+    padding: 16px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+input[type=number], input[type=password], input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px;
+    box-shadow: 1px 3px black;
+    background-color: #00662f; color: white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    transition-duration: 0.4s;
+    color:black;
+    background-color: yellow;
+}
