@@ -54,6 +54,12 @@ body {
         padding: 15px;
     }
 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
 .sticky {
     position: fixed;
     top: 0;
@@ -72,19 +78,13 @@ body {
         max-width:80%
     }
     
-    .col-md-2{
-        display: none;
-    }
-
-    .col-10{
-        transform: translateX(10%);
-    }
+    
 
     .header a {
         float: none;
         display: none;
         text-align: left;
-        margin-top: 6px;
+        margin-top: 5px;
         margin-left: 0px;
     }
 
@@ -94,7 +94,6 @@ body {
         color: white;
         transform: translateY(+5px);
         transition-duration: 0.4s;
-        box-shadow: 1px 3px;
     }
 
     .header .menuon {
@@ -125,15 +124,13 @@ body {
     }
 }
 
-a { text-decoration: none; }
-
 footer {
     left: 0;
     bottom: 0;
     width: 100%;
     color: black;
     text-align: center;
-    position: relative;
+    position: fixed;
     background-color: #d8dde0;
     border-top: 4px solid #005eb8;
 }
@@ -162,28 +159,7 @@ footer {
     border: 1px solid white;
     border-radius: 5px;
     padding: 15px;
-    box-shadow: 1px 3px;
-    background-color: #00662f; color: white
-}
-
-.buttonred {
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 15px;
-    box-shadow: 1px 3px;
-    background-color: #8A1538; color: white
-}
-
-.buttonred:hover {
-    transition-duration: 0.4s;
-    color:black;
-    background-color: yellow;
-}
-
-.button:hover {
-    transition-duration: 0.4s;
-    color:black;
-    background-color: yellow;
+   
 }
 
 
@@ -201,17 +177,66 @@ textarea {
     border-color: black;
 }
 
-/* Calendar Schedule */
-.row-striped:nth-of-type(odd){
-    background-color: #efefef;
-    border-left: 4px #000000 solid;
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.row-striped:nth-of-type(even){
-    background-color: #ffffff;
-    border-left: 4px #efefef solid;
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
-.row-striped {
-    padding: 15px 0;
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
