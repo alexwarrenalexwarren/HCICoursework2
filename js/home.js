@@ -19,3 +19,8 @@ function dropDown() {
         x.className = "header";
     }
 }
+
+function popUp() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}

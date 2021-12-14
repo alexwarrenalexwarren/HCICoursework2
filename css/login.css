@@ -1,9 +1,9 @@
 body {
-    background: linear-gradient(to bottom, #0072CE 33%, white 0%);
+    background: linear-gradient(to bottom, #0072CE 33%, white 0%) no-repeat;
 }
 
 html {
-    height: 100%
+    height: 100%;
 }
 
 line {
