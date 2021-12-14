@@ -72,19 +72,13 @@ body {
         max-width:80%
     }
     
-    .col-md-2{
-        display: none;
-    }
-
-    .col-10{
-        transform: translateX(10%);
-    }
+    
 
     .header a {
         float: none;
         display: none;
         text-align: left;
-        margin-top: 6px;
+        margin-top: 5px;
         margin-left: 0px;
     }
 
@@ -94,7 +88,6 @@ body {
         color: white;
         transform: translateY(+5px);
         transition-duration: 0.4s;
-        box-shadow: 1px 3px;
     }
 
     .header .menuon {
@@ -125,15 +118,13 @@ body {
     }
 }
 
-a { text-decoration: none; }
-
 footer {
     left: 0;
     bottom: 0;
     width: 100%;
     color: black;
     text-align: center;
-    position: fixed;
+    position: relative;
     background-color: #d8dde0;
     border-top: 4px solid #005eb8;
 }
@@ -150,7 +141,7 @@ footer {
 
 .box {
     padding: 20px;
-    background-color: white;;
+    background-color: white;
 }
 
 .boxcontent {
@@ -162,28 +153,7 @@ footer {
     border: 1px solid white;
     border-radius: 5px;
     padding: 15px;
-    box-shadow: 1px 3px;
-    background-color: #00662f; color: white
-}
-
-.buttonred {
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 15px;
-    box-shadow: 1px 3px;
-    background-color: #8A1538; color: white
-}
-
-.buttonred:hover {
-    transition-duration: 0.4s;
-    color:black;
-    background-color: yellow;
-}
-
-.button:hover {
-    transition-duration: 0.4s;
-    color:black;
-    background-color: yellow;
+   
 }
 
 
@@ -200,3 +170,19 @@ textarea {
     border-width: 2px;
     border-color: black;
 }
+
+/* Calendar Schedule */
+.row-striped:nth-of-type(odd){
+  background-color: #efefef;
+  border-left: 4px #000000 solid;
+}
+
+.row-striped:nth-of-type(even){
+  background-color: #ffffff;
+  border-left: 4px #efefef solid;
+}
+
+.row-striped {
+    padding: 15px 0;
+}
+
